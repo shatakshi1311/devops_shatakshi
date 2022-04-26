@@ -1,0 +1,12 @@
+Devops Docker prac
+
+sudo su
+password : student
+dnf install docker 
+systemctl start docker
+docker pull 6921/flaskimg:webApp
+docker images
+docker run -d -p 8089:90 enter image id
+docker ps
+docker inspect and enter status no
+docker stop and enter status no
